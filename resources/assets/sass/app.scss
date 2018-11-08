@@ -1,0 +1,30 @@
+// Variables
+@import "_variables.scss";
+// Your variable overrides
+//$body-bg: #000;
+//$body-color: #111;
+//$theme-colors: (
+//        "primary": #0074d9,
+//        "danger": #ff4136
+//"custom-color": #900
+//);
+@import "~bootstrap/scss/bootstrap";
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+html {
+  font-size: 0.9rem;
+}
+
+html body {
+  background: #f3f3f3;
+}
+
+.header {
+  background: #fff;
+  padding: 0 0 6px;
+  box-shadow: 0 2px 3px 0 #00000017;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+}
